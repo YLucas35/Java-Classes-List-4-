@@ -9,12 +9,12 @@ public class _atividade_6 {
 
         while (math) {
             System.out.print("Caso queira fazer um cálculo digite 'c' para calcular ou caso vc não queira calcular digite 's' para sair: ");
-            char opcao = sc.next().charAt(0);
+            char option = sc.next().charAt(0);
 
-            if (opcao == 's' || opcao == 'S') {
+            if (option == 's' || option == 'S') {
                 math = false;
                 System.out.println("Encerrando a calculadora...");
-            } else if (opcao == 'c' || opcao == 'C') {
+            } else if (option == 'c' || option == 'C') {
 
                 System.out.print("Digite o primeiro número: ");
                 double numb1 = sc.nextDouble();
