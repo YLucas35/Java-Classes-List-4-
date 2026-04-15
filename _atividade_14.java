@@ -21,5 +21,6 @@ public class _atividade_14 {
             result = payment * 0.20;
             System.out.printf("O valor do imposto a ser pago é R$%.2f%n", result);
         }
+        sc.close()
     }
 }
